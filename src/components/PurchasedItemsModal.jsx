@@ -13,7 +13,7 @@ const PurchasedItemsModal = ({ items, onClose }) => {
           <ul>
             {items.map((item, index) => (
               <li key={index} className="p-2 bg-gray-200 rounded mt-2">
-                <strong>{item.name}</strong> - {item.category} (Validade:{" "}
+                <strong>{item.name}</strong> - {item.category} (Validity:{" "}
                 {item.validity})
               </li>
             ))}

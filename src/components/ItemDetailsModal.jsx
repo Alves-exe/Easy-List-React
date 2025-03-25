@@ -10,20 +10,20 @@ const ItemDetailsModal = ({ item, onClose }) => {
       >
         <h2 className="text-xl font-bold mb-4">Item Details</h2>
         <p>
-          <strong>Nome:</strong> {item.name}
+          <strong>Name:</strong> {item.name}
         </p>
         <p>
-          <strong>Categoria:</strong> {item.category}
+          <strong>Category:</strong> {item.category}
         </p>
         <p>
-          <strong>Validade:</strong> {item.validity}
+          <strong>Validity:</strong> {item.validity}
         </p>
         <div className="flex justify-end mt-4">
           <button
             className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600"
             onClick={onClose}
           >
-            Fechar
+            Close
           </button>
         </div>
       </div>
