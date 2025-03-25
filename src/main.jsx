@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Register from "./containers/Register";
-import Forgot_Password from "./containers/Forgot-Password-Page";
+import Forgot_Password from "./containers/Forgot-Password";
 import Login from "./containers/Login";
 import App from "./App";
 
