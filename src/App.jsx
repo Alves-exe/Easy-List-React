@@ -88,7 +88,7 @@ function App() {
             ))
           ) : (
             <p className="text-gray-500 text-center mt-4">
-              Nenhum item na lista.
+              No items in the list.
             </p>
           )}
         </ul>
