@@ -8,11 +8,12 @@ export default function Login() {
   const [error, setError] = useState(false);
 
   const handleLogin = () => {
-    if (!email || !password) {
+    if (!email || !password.trim()) {
       setError(true);
       return;
     }
     setError(false);
+    navigate("/main");
   };
 
   const navigate = useNavigate();
@@ -44,18 +45,18 @@ export default function Login() {
           onChange={(event) => setEmail(event.target.value)}
         />
         {error && !email && (
-          <p className="text-red-500 text-xs">Preencha todos os campos</p>
+          <p className="text-red-500 text-xs">Fill all in fields</p>
         )}
 
         <label className="text-white text-sm mt-2">Password</label>
         <Input_Login
           type="password"
           placeholder="Insert your password"
-          value={password}
+          value={password.trim()}
           onChange={(event) => setPassword(event.target.value)}
         />
         {error && !password && (
-          <p className="text-red-500 text-xs">Preencha todos os campos</p>
+          <p className="text-red-500 text-xs">Fill all in fields</p>
         )}
 
         <button
