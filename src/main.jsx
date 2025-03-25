@@ -6,7 +6,6 @@ import Register from "./containers/Register";
 import Forgot_Password from "./containers/Forgot-Password";
 import Login from "./containers/Login";
 import App from "./App";
-import Modal from "./containers/Modal";
 
 const router = createBrowserRouter([
   {
