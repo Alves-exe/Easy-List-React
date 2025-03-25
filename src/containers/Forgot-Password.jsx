@@ -12,7 +12,7 @@ function Forgot_Password() {
       return;
     }
     setError("");
-    navigate("/login");
+    navigate("/");
   };
 
   const navigate = useNavigate();

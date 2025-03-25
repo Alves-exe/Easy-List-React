@@ -24,7 +24,7 @@ function Register() {
       return;
     }
     setError("");
-    navigate("/login");
+    navigate("/");
     alert("Registered successfully");
   };
   const navigate = useNavigate();
