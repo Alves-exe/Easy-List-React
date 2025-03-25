@@ -1,6 +1,6 @@
-# 🛒 Shopping List - Aplicação React
+# 🛒 Easy List - Aplicação React
 
-Este é um projeto de **Lista de Compras** desenvolvido com **React.js**, permitindo adicionar, visualizar, excluir e marcar itens como comprados. Os dados são armazenados no **LocalStorage** para garantir persistência entre as sessões do usuário.
+Este é um projeto de **Lista de Compras** desenvolvido com **React.js**, para a materia de User Experience - UI/UX, permitindo adicionar, visualizar, excluir e marcar itens como comprados. Os dados são armazenados no **LocalStorage** para garantir persistência entre as sessões do usuário.
 
 ## 🚀 Tecnologias Utilizadas
 
