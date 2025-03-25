@@ -8,7 +8,7 @@ const ItemDetailsModal = ({ item, onClose }) => {
         className="bg-white p-6 rounded-lg shadow-lg w-80"
         onClick={(e) => e.stopPropagation()}
       >
-        <h2 className="text-xl font-bold mb-4">Detalhes do Item</h2>
+        <h2 className="text-xl font-bold mb-4">Item Details</h2>
         <p>
           <strong>Nome:</strong> {item.name}
         </p>

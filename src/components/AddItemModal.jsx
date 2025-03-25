@@ -25,17 +25,17 @@ const AddItemModal = ({ onClose, onAdd }) => {
         className="bg-white p-6 rounded-lg shadow-lg w-80"
         onClick={(e) => e.stopPropagation()}
       >
-        <h2 className="text-xl font-bold mb-4">Adicionar Item</h2>
+        <h2 className="text-xl font-bold mb-4">Add Item</h2>
         <input
           type="text"
-          placeholder="Nome"
+          placeholder="Name"
           className="w-full p-2 border rounded mb-2"
           value={itemName}
           onChange={(e) => setItemName(e.target.value)}
         />
         <input
           type="text"
-          placeholder="Categoria"
+          placeholder="Category"
           className="w-full p-2 border rounded mb-2"
           value={category}
           onChange={(e) => setCategory(e.target.value)}
@@ -51,13 +51,13 @@ const AddItemModal = ({ onClose, onAdd }) => {
             className="px-4 py-2 bg-gray-300 rounded hover:bg-gray-400"
             onClick={onClose}
           >
-            Cancelar
+            Cancel
           </button>
           <button
             className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600"
             onClick={handleAdd}
           >
-            Adicionar
+            Add
           </button>
         </div>
       </div>

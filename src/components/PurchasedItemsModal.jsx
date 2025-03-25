@@ -8,7 +8,7 @@ const PurchasedItemsModal = ({ items, onClose }) => {
         className="bg-white p-6 rounded-lg shadow-lg w-80"
         onClick={(e) => e.stopPropagation()}
       >
-        <h2 className="text-xl font-bold mb-4">Itens Comprados</h2>
+        <h2 className="text-xl font-bold mb-4">Purchased Items</h2>
         {items.length > 0 ? (
           <ul>
             {items.map((item, index) => (
@@ -19,14 +19,14 @@ const PurchasedItemsModal = ({ items, onClose }) => {
             ))}
           </ul>
         ) : (
-          <p className="text-gray-600">Nenhum item comprado ainda.</p>
+          <p className="text-gray-600">No items purchased</p>
         )}
         <div className="flex justify-end mt-4">
           <button
             className="px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600"
             onClick={onClose}
           >
-            Fechar
+            Close
           </button>
         </div>
       </div>
