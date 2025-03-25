@@ -20,11 +20,7 @@ function Forgot_Password() {
     <div className="flex items-center justify-center min-h-screen bg-black">
       <div className="w-80 p-6 rounded-lg shadow-lg">
         <div className="flex items-center justify-start mb-6 space-x-4">
-          <img
-            src="./public/Logo.png"
-            alt="Easy List Logo"
-            className="w-28 h-28"
-          />
+          <img src="/Logo.png" alt="Easy List Logo" className="w-28 h-28" />
           <h1 className="text-green-500 text-2xl font-bold">Reset Password</h1>
         </div>
         <label type="text" className="text-white text-sm">
